@@ -1,4 +1,4 @@
-# ResearchLens AI — AI Research Paper Discovery & Summarisation Assistant
+# ResearchLens — AI Research Paper Discovery & Summarisation Assistant
 
 > ResearchLens AI helps university students and early-stage researchers discover relevant academic papers and understand their abstracts through concise summaries.
 
