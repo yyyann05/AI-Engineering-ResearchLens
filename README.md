@@ -18,9 +18,9 @@ These studies provide initial evidence for the challenges ResearchLens AI aims t
 
 ## Initial Related Work / Existing Approaches
 
-- **OpenAlex** — An open scholarly catalogue and API for searching academic works and retrieving metadata. **Limitation:** Abstracts and full-text access are not available for every record. [Source](https://help.openalex.org/api/).
-- **Semantic Scholar** — An academic search platform providing paper details and abstracts when available. **Limitation:** Its relevance search returns a maximum of 1,000 results, and some papers have missing abstracts or unavailable full-text PDFs. [Source](https://api.semanticscholar.org/api-docs/).
-- **arXiv** — A public repository of research papers with an API for searching records and retrieving metadata. **Limitation:** Its coverage focuses on particular research fields, and preprints should not automatically be treated as peer-reviewed publications. [Source](https://info.arxiv.org/help/api/index.html).
+- **OpenAlex** — An open scholarly catalogue and API for searching academic works and retrieving metadata. **Limitation:** Abstracts and full-text access are not available for every record. [Source](https://openalex.org/).
+- **Semantic Scholar** — An academic search platform providing paper details and abstracts when available. **Limitation:** Its relevance search returns a maximum of 1,000 results, and some papers have missing abstracts or unavailable full-text PDFs. [Source](https://www.semanticscholar.org/).
+- **arXiv** — A public repository of research papers with an API for searching records and retrieving metadata. **Limitation:** Its coverage focuses on particular research fields, and preprints should not automatically be treated as peer-reviewed publications. [Source](https://arxiv.org/).
 
 ## Project Objectives
 
@@ -33,7 +33,7 @@ University students preparing assignments, research proposals or final-year proj
 
 ## Data Sources
 
-- **OpenAlex Works API:** Live academic paper metadata, available abstracts, publication years, authors and source links. [API URL](https://api.openalex.org/works)
+- **OpenAlex Works API:** Live academic paper metadata, available abstracts, publication years, authors and source links. [API URL](https://help.openalex.org/api/)
 - **arXiv:** Public research papers and metadata for selected test cases and evaluation. [API Documentation](https://info.arxiv.org/help/api/index.html)
 - **Semantic Scholar API:** Academic paper metadata for optional comparison and cross-checking during evaluation. [API Documentation](https://api.semanticscholar.org/api-docs/)
 
