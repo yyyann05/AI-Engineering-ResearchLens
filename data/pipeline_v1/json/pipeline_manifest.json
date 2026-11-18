@@ -1,1 +1,36 @@
-
+{
+  "pipeline_version": "researchlens-json-v1",
+  "executed_at_utc": "2026-11-16T00:50:48.811408+00:00",
+  "sources": [
+    {
+      "source": "/content/week3_project/data/raw/s01_openalex.json",
+      "sha256": "dd1a2b20ad40c967beed7b2ae98b156f5c9f36447eee5a2cc9bf83448d7eea1d",
+      "query": "artificial intelligence",
+      "input_count": 10,
+      "excluded_count": 0
+    },
+    {
+      "source": "/content/week3_project/data/raw/s02_openalex.json",
+      "sha256": "6557faedb9d8fb660bfae9bd1b95f52df47e3c2cd07d4f01f8d02000b3ce4a4b",
+      "query": "machine learning",
+      "input_count": 10,
+      "excluded_count": 0
+    }
+  ],
+  "output": "/content/week3_project/data/pipeline_v1/json/prepared_json.jsonl",
+  "output_sha256": "f909d5c43dbdf58f55c8e3d113a7c4fc50de53017155d007b04ebbc9175ecff1",
+  "output_count": 20,
+  "abstracts_available": 13,
+  "abstracts_missing": 7,
+  "source_to_output_mapping": [
+    {
+      "source": "/content/week3_project/data/raw/s01_openalex.json",
+      "output": "/content/week3_project/data/pipeline_v1/json/prepared_json.jsonl"
+    },
+    {
+      "source": "/content/week3_project/data/raw/s02_openalex.json",
+      "output": "/content/week3_project/data/pipeline_v1/json/prepared_json.jsonl"
+    }
+  ],
+  "processing": "OpenAlex JSON -> field extraction -> abstract reconstruction -> JSONL"
+}
