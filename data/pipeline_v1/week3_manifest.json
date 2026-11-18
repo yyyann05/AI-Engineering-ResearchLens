@@ -1,0 +1,28 @@
+{
+  "pipeline_version": "week3-v1",
+  "generated_at_utc": "2026-11-16T00:50:48.755930+00:00",
+  "records": [
+    {
+      "source_id": "S01",
+      "source_filename": "s01_openalex.json",
+      "source_sha256": "dd1a2b20ad40c967beed7b2ae98b156f5c9f36447eee5a2cc9bf83448d7eea1d",
+      "prepared_output": "data/processed/prepared_json.jsonl",
+      "prepared_sha256": "f909d5c43dbdf58f55c8e3d113a7c4fc50de53017155d007b04ebbc9175ecff1",
+      "processing_note": "JSON fields extracted; abstract reconstructed from inverted index when available; missing abstracts flagged",
+      "source_version": "OpenAlex API response captured at retrieval time",
+      "access_rights": "OpenAlex API; check current API terms",
+      "status": "Prepared; quality review pending"
+    },
+    {
+      "source_id": "S02",
+      "source_filename": "s02_openalex.json",
+      "source_sha256": "6557faedb9d8fb660bfae9bd1b95f52df47e3c2cd07d4f01f8d02000b3ce4a4b",
+      "prepared_output": "data/processed/prepared_json.jsonl",
+      "prepared_sha256": "f909d5c43dbdf58f55c8e3d113a7c4fc50de53017155d007b04ebbc9175ecff1",
+      "processing_note": "JSON fields extracted; abstract reconstructed from inverted index when available; missing abstracts flagged",
+      "source_version": "OpenAlex API response captured at retrieval time",
+      "access_rights": "OpenAlex API; check current API terms",
+      "status": "Prepared; quality review pending"
+    }
+  ]
+}
